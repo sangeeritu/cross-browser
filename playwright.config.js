@@ -7,7 +7,7 @@ export default defineConfig({
   reporter: 'html',
   use: {
     headless: true,
-    baseURL: 'https://www.maxon.net', 
+    baseURL: 'https://www.maxon.net',
   },
   projects: [
     {
@@ -22,5 +22,13 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
+    {
+      name: 'Microsoft Edge',
+      use: {
+        ...devices['Desktop Chrome'],
+        channel: 'msedge',
+      },
+    },
   ],
 });
+
