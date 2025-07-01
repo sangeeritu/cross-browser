@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        browser: [chromium, firefox, webkit, Microsoft Edge]
+        browser: [chromium, firefox, webkit, "Microsoft Edge"]
 
     steps:
       - name: Checkout code
