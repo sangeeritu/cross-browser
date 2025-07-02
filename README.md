@@ -21,12 +21,10 @@ This repository contains Playwright end-to-end tests to verify that the Maxon we
 
 1. **Install dependencies**
 
-```bash
 npm install --omit=optional
 
 ## ** Install Playwright browsers**
 
-```bash
 npx playwright install --with-deps
 
 Or run for a specific browser:
