@@ -20,10 +20,10 @@ This repository contains Playwright end-to-end tests to verify that the Maxon we
 ## 🛠️ Setup
 
 1. **Install dependencies**
-
+```bash
 npm install --omit=optional
 
-## ** Install Playwright browsers**
+**Install Playwright browsers**
 
 npx playwright install --with-deps
 
@@ -34,5 +34,5 @@ npx playwright test --project=firefox
 npx playwright test --project=webkit
 npx playwright test --project='Microsoft Edge'
 
-** Actions workflow**
+**Actions workflow**
 The workflow runs automatically every hour (via cron) and can also be triggered manually.
